@@ -1,0 +1,34 @@
+td, th { 
+    padding: 10px; 
+    border: 2px solid #0f0f0f;
+    
+    text-align: center;
+}
+
+div.outer-content{
+    width: 75%;
+    padding:20px;
+    margin-top: 20px;
+    
+    background-color: #fa67d0;
+
+} 
+
+
+div.inner-content {
+    width: 75%;
+    margin:auto;
+    text-align:center;
+    background-color: #4d46ff;
+  }
+
+  tr:nth-of-type(even) {
+    background-color: rgb(14, 153, 252);
+  }
+  tr:nth-of-type(odd) {
+    background-color: rgb(14, 252, 22);
+  }
+  th {
+    background-color: rgba(238, 239, 240, 0.93);
+  }
+
